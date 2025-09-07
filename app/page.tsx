@@ -20,7 +20,7 @@ export default function Portfolio() {
       image: "/ai-task-manager-dashboard.jpg",
       skills: ["TypeScript","CSS","JavaScript"],
       githubLink: "https://github.com/tg1106/my-portfolio",
-      link: "https://ai-task-manager.demo.com",
+      link: "https://my-portfolio-tharun-gopinath.vercel.app/",
     },
     {
       title: "Real-time Chat Application",
@@ -28,7 +28,7 @@ export default function Portfolio() {
       image: "/chat-application-interface.png",
       skills: ["Socket.io", "Express", "React", "WebRTC"],
       githubLink: "https://github.com/username/realtime-chat",
-      link: "https://my-portfolio-tharun-gopinath.vercel.app/",
+      link: "https://ai-task-manager.demo.com",
     },
     {
       title: "E-commerce Analytics Dashboard",

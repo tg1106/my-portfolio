@@ -195,13 +195,14 @@ export default function Portfolio() {
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
             <span className="bg-gradient-to-r from-primary via-white to-secondary bg-clip-text [&]:text-white [&]:bg-none">
-              {"Tharun Gopinath"} 
+              {"Tharun Gopinath"}
             </span>
           </h1>
 
           <div className="space-y-4 mb-8">
             <p className="text-xl text-muted-foreground">
-              <strong className="text-foreground">Bachelors in Computer Science</strong> | Vellore Institute of Technology, Chennai
+              <strong className="text-foreground">Bachelors in Computer Science</strong> | Vellore Institute of
+              Technology, Chennai
             </p>
             <p className="text-lg text-secondary">President, Zero Bucks Club</p>
           </div>
@@ -212,37 +213,46 @@ export default function Portfolio() {
             My journey spans from crafting elegant frontend interfaces to designing scalable backend systems.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
-                <Github className="w-5 h-5 mr-2" />
-                GitHub
-              </a>
-            </Button>
+          <div className="mt-12 mb-8">
+            <h3 className="text-xl font-semibold text-foreground mb-6">Connect with me</h3>
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-6 p-8 bg-card/10 rounded-2xl border border-border/20 backdrop-blur-sm">
+              <div className="flex flex-col items-center group">
+                <a
+                  href="https://github.com/tg1106"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-16 h-16 bg-primary hover:bg-primary/80 text-primary-foreground rounded-full transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-primary/25 mb-2"
+                >
+                  <Github className="w-8 h-8" />
+                </a>
+                <span className="text-sm text-muted-foreground group-hover:text-primary transition-colors">GitHub</span>
+              </div>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground bg-transparent"
-              asChild
-            >
-              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="w-5 h-5 mr-2" />
-                LinkedIn
-              </a>
-            </Button>
+              <div className="flex flex-col items-center group">
+                <a
+                  href="https://www.linkedin.com/in/tharun-gopinath-86b010321/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-16 h-16 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-full transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-secondary/25 mb-2"
+                >
+                  <Linkedin className="w-8 h-8" />
+                </a>
+                <span className="text-sm text-muted-foreground group-hover:text-secondary transition-colors">
+                  LinkedIn
+                </span>
+              </div>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-accent text-white hover:bg-accent hover:text-accent-foreground bg-transparent"
-              asChild
-            >
-              <a href="/resume.pdf" download>
-                <Download className="w-5 h-5 mr-2" />
-                Resume
-              </a>
-            </Button>
+              <div className="flex flex-col items-center group">
+                <a
+                  href="/resume.pdf"
+                  download
+                  className="flex items-center justify-center w-16 h-16 bg-white hover:bg-white/90 text-black rounded-full transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-white/25 mb-2"
+                >
+                  <Download className="w-8 h-8" />
+                </a>
+                <span className="text-sm text-muted-foreground group-hover:text-white transition-colors">Resume</span>
+              </div>
+            </div>
           </div>
         </ScrollAnimation>
       </section>

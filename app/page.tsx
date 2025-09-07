@@ -15,10 +15,10 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "AI-Powered Task Manager",
-      description: "A smart task management application with AI-driven priority suggestions and automated scheduling.",
+      title: "Portfolio Website",
+      description: "A personal portfolio website showcasing my journey, projects, and skills in data science and deep learning.",
       image: "/ai-task-manager-dashboard.jpg",
-      skills: ["React", "Node.js", "OpenAI API", "MongoDB"],
+      skills: ["TypeScript","CSS","JavaScript"],
       githubLink: "https://github.com/username/ai-task-manager",
       link: "https://ai-task-manager.demo.com",
     },

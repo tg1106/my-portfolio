@@ -16,10 +16,10 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Portfolio Website",
-      description: "A personal portfolio website showcasing my journey, projects, and skills in data science and deep learning.",
+      description: "A personal portfolio website showcasing my journey, projects, skills and certifications",
       image: "/ai-task-manager-dashboard.jpg",
       skills: ["TypeScript","CSS","JavaScript"],
-      githubLink: "https://github.com/username/ai-task-manager",
+      githubLink: "https://github.com/tg1106/my-portfolio",
       link: "https://ai-task-manager.demo.com",
     },
     {
@@ -28,7 +28,7 @@ export default function Portfolio() {
       image: "/chat-application-interface.png",
       skills: ["Socket.io", "Express", "React", "WebRTC"],
       githubLink: "https://github.com/username/realtime-chat",
-      link: "https://realtime-chat.demo.com",
+      link: "https://my-portfolio-tharun-gopinath.vercel.app/",
     },
     {
       title: "E-commerce Analytics Dashboard",

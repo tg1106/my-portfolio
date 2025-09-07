@@ -204,13 +204,14 @@ export default function Portfolio() {
               <strong className="text-foreground">Bachelors in Computer Science</strong> | Vellore Institute of
               Technology, Chennai
             </p>
-            <p className="text-lg text-secondary">President, Zero Bucks Club</p>
+            <p className="text-lg text-secondary">President, Zero Bucks Club<br />
+            Sponsorship member, Arignar Anna Tamizh Mandram<br />
+            Event Manager, CSED</p>
           </div>
 
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto text-balance leading-relaxed">
-            Passionate full-stack developer with expertise in modern web technologies and cloud architecture. I create
-            innovative solutions that bridge the gap between complex technical challenges and user-friendly experiences.
-            My journey spans from crafting elegant frontend interfaces to designing scalable backend systems.
+            Aspiring Data Scientist eager to explore Big Data, machine learning, and deep learning. Passionate about building 
+            AI solutions and gaining hands-on experience in data-driven projects.
           </p>
 
           <div className="mt-12 mb-8">
@@ -552,7 +553,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="relative z-10 py-12 px-6 border-t border-border/50 mt-16">
         <div className="container mx-auto text-center">
-          <p className="text-muted-foreground">© 2024 John Doe. Crafted with passion and cosmic inspiration.</p>
+          <p className="text-muted-foreground">© 2025 Tharun Gopinath. Crafted with passion and cosmic inspiration. K&#10084;</p>
         </div>
       </footer>
     </div>
